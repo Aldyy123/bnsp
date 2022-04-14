@@ -18,11 +18,7 @@ while ($rowPengunjung = mysqli_fetch_array($resultPengunjung)) {
 			$anak += intval($rowPengunjung['p_kecil']);
 			$label = $rowWisata['nama'];
 
-			// $dataPoints = array_push($dataPoints,
-			// array(
-			// 	$dataPoints['label'] => $label, 'y' => $anak + $dewasa
-			// )
-			// );
+			$dataPoints = [];
 		}
 	}
 }
