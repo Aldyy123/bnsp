@@ -1,0 +1,39 @@
+.form-ticket form .form-control,
+.form-ticket form .form-select,
+.form-ticket form .price {
+    width: 70%;
+}
+
+.form-ticket form .form-check label {
+    width: 90%;
+}
+
+.form-ticket form .form-check input {
+    margin: auto;
+    display: block;
+    width: 40px;
+    height: 30px;
+}
+
+.form-ticket form #total-price {
+    background-color: none!important;
+    border: none!important;
+}
+
+.form-ticket form .form-group .child-ps {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-ticket form .form-group .child-ps span:last-child {
+    font-size: 12px;
+}
+
+.input-wisata form section input {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.view-data-wisata img {
+    width: 250px;
+}
