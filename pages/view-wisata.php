@@ -15,7 +15,7 @@ require_once ('../controllers/read-wisata.php');
 </div>
 
 <div class="container">
-    <div class="row">
+    <div class="row justify-content-between gap-1">
         <?php while ($data = mysqli_fetch_array($result)): ?>
         <div class="col-md-3">
             <div class="card" style="width: 18rem;">

@@ -7,3 +7,23 @@
 - Models berisikan file yang terhubung langsung dengan database
 - Pages folder yang berisikan halaman - halaman pada website
 - File partials pada footer dan header ialah untuk memanagement resource secara langsung dengan website
+
+---
+
+#### Cara install
+
+1. Clone repositoru ini
+2. Jalankan xampp pada device anda
+3. Import Database wisata.sql yang sudah tersedia di folder root
+4. Silahkan pergi ke localhost folder ini untuk running websitenya
+
+
+#### Tools
+
+- Bootstrap
+- Canva js
+
+#### Author
+
+Mohammad Ardi Trisnaldi
+

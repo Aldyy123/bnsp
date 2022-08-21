@@ -15,8 +15,6 @@ document.querySelector('.total').addEventListener('click', function(e) {
         totalPriceChild = (50 / 100) * totalPriceChild
         totalPrice.value = totalPriceChild + totalPriceAdult
         total.textContent = totalPriceChild + totalPriceAdult
-        console.log(totalPrice);
-        console.log(total);
     }
 })
 

@@ -15,6 +15,7 @@ if (isset($_POST['submit'])) {
     if(mysqli_prepare($database, $query)) {
         $result = mysqli_query($database, $query);
         if($result) {
+            $_SESSION['flash_message'] = "Penmabhan wisata sukses";
             header("Location: ../pages/view-data-wisata.php");
         }
     }

@@ -16,8 +16,8 @@
 }
 
 .form-ticket form #total-price {
-    background-color: none!important;
-    border: none!important;
+    background-color: none !important;
+    border: none !important;
 }
 
 .form-ticket form .form-group .child-ps {
@@ -36,4 +36,21 @@
 
 .view-data-wisata img {
     width: 250px;
+}
+
+table {
+    width: 1000px !important;
+}
+
+.table-overflow {
+    overflow-x: scroll;
+}
+
+@media screen and (max-width: 768px) {
+
+    .form-ticket form .form-control,
+    .form-ticket form .form-select,
+    .form-ticket form .price {
+        width: 100%;
+    }
 }

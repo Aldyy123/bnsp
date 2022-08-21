@@ -18,10 +18,11 @@ VALUES
 $pengunjung_dewasa, $pengunjung_kecil, $total_bayar)";
 
 // Untuk mengecek submit dan agree
-if (isset($_POST['submit']) && isset($_POST['agree'])) {
+if (isset($_POST['submit']) && isset($_POST['agree']) && isset($total_bayar)) {
     if (mysqli_prepare($database, $query)) {
         $result = mysqli_query($database, $query);
         if($result){
+            $_SESSION['flash_message'] = "Pembelian tiket sukses";
             header('Location: ../pages/view-wisata.php');
         }
     }
